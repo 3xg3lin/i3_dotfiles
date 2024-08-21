@@ -193,7 +193,7 @@ exec --no-startup-id feh --bg-fill $HOME/Pictures/NostCro3.jpg
 exec --no-startup-id picom
 
 #polkit
-exec --no-startup-id lxsessions-gtk3
+exec --no-startup-id lxsession 
 
 # gaps
 gaps inner 15
