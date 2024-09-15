@@ -7,7 +7,7 @@
 
 /* Body styling */
 body {
-    background-color: #1E1E2E;
+    background: #0f0c1f; /* Adjusted background color */
     color: #F8F8F2;
     font-family: 'Courier New', Courier, monospace;
     display: flex;
@@ -19,7 +19,27 @@ body {
 
 /* Container styling */
 .container {
-    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Image container */
+.image-container {
+    width: 300px; /* Adjust as needed */
+    margin-right: 40px; /* Space between image and text */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Text content styling */
+.text-content {
+    text-align: left;
 }
 
 /* Heading */
@@ -38,10 +58,18 @@ h1 {
 /* Links section */
 .links {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column; /* Stack the rows vertically */
     gap: 40px;
 }
 
+/* Row styling */
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px; /* Spacing between columns */
+}
+
+/* Section styling */
 .section {
     width: 180px;
 }
